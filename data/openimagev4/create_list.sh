@@ -12,7 +12,7 @@ do
   fi
   for name in VOC2007
   do
-    if [[ $dataset == "test"]]
+    if $dataset == "test"
     then
       continue
     fi
