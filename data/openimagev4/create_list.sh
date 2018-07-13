@@ -10,9 +10,9 @@ do
   then
     rm -f $dst_file
   fi
-  for name in VOC2007
+  for name in VOC2007 VOC2012
   do
-    if [$dataset == "test"]
+    if [[ $dataset == "test" && $name == "VOC2012" ]]
     then
       continue
     fi
