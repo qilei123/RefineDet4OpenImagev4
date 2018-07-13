@@ -1,14 +1,14 @@
 import os
 import cv2
 
-train_names_dir = ''
-test_names_dir = ''
+train_names_dir = '/data0/qilei_chen/OpenImagesChallenge2018/CVDF/train_id_list.txt'
+test_names_dir = '/data0/qilei_chen/OpenImagesChallenge2018/CVDF/validation_id_list.txt'
 
-train_images_dir = ''
-train_annos_dir = ''
+train_images_dir = '/data0/qilei_chen/OpenImagesChallenge2018/CVDF/train'
+train_annos_dir = '/data0/qilei_chen/OpenImagesChallenge2018/CVDF/voc_annotation_t'
 
-test_images_dir = ''
-test_annos_dir = ''
+test_images_dir = '/data0/qilei_chen/OpenImagesChallenge2018/CVDF/validation'
+test_annos_dir = '/data0/qilei_chen/OpenImagesChallenge2018/CVDF/voc_annotation_v'
 
 #create trainval.txt
 train_names_file = open(train_names_dir)
