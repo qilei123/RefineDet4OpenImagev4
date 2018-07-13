@@ -28,7 +28,7 @@ line  = test_names_file.readline()
 while line:
     line_n = test_images_dir+'/'+line[:len(line)-1]+'.jpg'+' '+test_annos_dir+'/'+line[:len(line)-1]+'.xml\n'
     test_file.write(line_n)
-    image = cv2.imread(test_annos_dir+'/'+line[:len(line)-1]+'.jpg')
+    image = cv2.imread(test_images_dir+'/'+line[:len(line)-1]+'.jpg')
     size = image.shape
     line_m = line[:len(line)-1]+' '+str(size[0])+' '+str(size[1])+'\n'
     test_name_size_file.write(line_m)
