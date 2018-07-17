@@ -11,8 +11,9 @@
 #define CV_LOAD_IMAGE_COLOR cv::IMREAD_COLOR
 #define CV_THRESH_BINARY_INV cv::THRESH_BINARY_INV
 #define CV_THRESH_OTSU cv::THRESH_OTSU
-#endif
-//#endif  // USE_OPENCV
+//#endif
+using namespace cv;
+#endif  // USE_OPENCV
 
 #include <algorithm>
 #include <numeric>
