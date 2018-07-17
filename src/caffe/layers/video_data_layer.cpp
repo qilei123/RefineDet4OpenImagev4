@@ -12,6 +12,7 @@
 #include "caffe/data_transformer.hpp"
 #include "caffe/layers/video_data_layer.hpp"
 #include "caffe/util/benchmark.hpp"
+using namespace cv;
 
 namespace caffe {
 
