@@ -1,7 +1,7 @@
 #ifdef USE_OPENCV
 #include <opencv2/highgui/highgui.hpp>
 
-#if CV_VERSION_MAJOR == 4
+//#if CV_VERSION_MAJOR == 4
 #include <opencv2/imgcodecs/imgcodecs.hpp>
 #define CV_GRAY2BGR cv::COLOR_GRAY2BGR
 #define CV_BGR2GRAY cv::COLOR_BGR2GRAY
@@ -12,7 +12,7 @@
 #define CV_THRESH_BINARY_INV cv::THRESH_BINARY_INV
 #define CV_THRESH_OTSU cv::THRESH_OTSU
 #endif
-#endif  // USE_OPENCV
+//#endif  // USE_OPENCV
 
 #include <algorithm>
 #include <numeric>
