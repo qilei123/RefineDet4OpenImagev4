@@ -358,7 +358,7 @@ elif normalization_mode == P.Loss.FULL:
   # Roughly there are 2000 prior bboxes per image.
   # TODO(weiliu89): Estimate the exact # of priors.
   base_lr *= 2000.
-base_lr=0.00001
+base_lr=0.000001
 # Evaluate on whole test set.
 num_test_image = 35925
 test_batch_size = 1
